@@ -1,0 +1,15 @@
+Author: Ariel A. Benzur
+
+Assignment: Define the minimum pid as 300 and the maximum pid as 5000, the
+create three methods, one that populates a data structure counting the pids,
+another that allocates the pids, and finally one releasing a pid. Return -1 if the
+method doesn't work and 1 if it does. 
+
+Assumptions: Since I'm coding in Javascript, I had to make a few assumptions, first off
+there are no declarative states in Javascript so I completely 86'ed it.
+Second, for the sake of understanding the output better, 
+I decided to add alerts. Third, I decided to
+create two other constants, the data structure & the difference
+of the pids. Finally, not an assumption but I wanted to state that
+in order to check, I created another function call that runs the
+other functions. 
