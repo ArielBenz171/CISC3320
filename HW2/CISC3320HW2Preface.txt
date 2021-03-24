@@ -1,0 +1,15 @@
+Author: Ariel A. Benzur
+
+Assignment: Create a function that allows you to create multiple threads at once:
+this entails to open a pid, then let them sleep for a random value of time, and finally 
+once the time is up, release the pid. 
+
+Assumptions: Javascript doesn't have a sleep function and it isn't
+obvious on how to replace it so I looked online and found some code
+that could replace the sleep function. (https://www.sitepoint.com/delay-sleep-pause-wait/)
+In the document given to us for HW2, we were asked to use the example 100, however
+the IDE that I used for this problem couldn't handle 100. So I checked my work somewhere
+else and it worked for 100 but my output page only shows a 10 example. All you need to do
+to check 100 is to change the for loop at the end of the code from 10 to 100. As well,
+I decided to have a cap at a 10 millisecond wait and keep the value as a float parameter
+rather than an integer.
