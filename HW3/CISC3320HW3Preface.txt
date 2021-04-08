@@ -1,0 +1,9 @@
+Author: Ariel A. Benzur
+
+Assignment: Use mutex locks in order to protect your code from race conditions.
+
+Assumptions: Javascript is a single threaded language so there is mostly no need
+for mutex locks. One side effect of this is that mutex locks are annoying to run
+in Javascript, the only possible way is to create a full-fleged web app, which I think
+is a bit unreasonable for this homework. So I decided just to just import mutex locks and write
+out the hypothetical program including mutex locks.
