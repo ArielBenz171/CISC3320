@@ -1,0 +1,16 @@
+Author: Ariel A. Benzur
+
+Assignment: Recreate some disk scheduling algorithms.
+
+Assumptions: First off, I embeded the example input given to use within my code rather
+than making the user input whatever values they want. If you want to change it all you need to do
+is change the values on the top. The array is the same, the head is 100, and the total cylinders
+used is 4999. All I did was find the steps, there was no specification to do much else, unless I 
+misread the homework. In the slides you say for the SCAN algorithm that you choose between which side is
+shorter but in the textbook it says about the SCAN Algorithm, "In the SCAN algorithm, the disk arm starts at one end of the disk and moves
+toward the other end, servicing requests as it reaches each cylinder, until it gets
+to the other end of the disk. ... we need to know
+the direction of head movement in addition to the head’s current position.
+Assuming that the disk arm is moving toward 0 and that the initial head
+position is again 53." (Abraham 475) This doesn't specify the idea that we need to go towards the shorter end. I'll assume that the
+slides are right in this case but for future classes, you may want to look into this.
